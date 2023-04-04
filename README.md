@@ -6,7 +6,7 @@
  <li>Created using HTMl,CSS,PHP.</li>
  
  <li>Uses MySQL database.</li>
-
+<br>
  This was my first PHP project and helped me understand more of the server side functionalities and how connectivity with database works. 
 
 </ul>
