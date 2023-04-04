@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travek Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class = "bg" src="kjsce_img.jpeg" alt="KJSCE">
+    <div class="container">
+        <h2 >Welcome to KJSCE - US trip form</h3>
+        <p>Enter your details to confirm your participation in the trip</p>
+      <!--   <p class="submit"> Thanks for submitting.We are looking forward to enjoy the trip with you!</P>--> 
+
+        <form action= "first.php" method="post">  <!--// two methods : get and post, post = very secure(used to store passwords) so used for form submission
+                                               // get is not secure, whatever data you send via get can be seen through url
+        -->
+            <input type="text" name="name" id="name" placeholder="Enter your name" >
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+            <textarea type = "Other" name="Other" id="Other" cols="30" rows="10" placeholder = "enter any other information here such as medical history"></textarea>
+            <button class="btn">submit</button>    <!--id = uniquely identifies an element while class,two elements can have same class-->
+                                          
+        </form>                                       
+    </body>                                    
+    <script src="index.js"></script>
+    <!--INSERT INTO `trip1`(`Serial num`, `Name`, `Age`, `Gender`, `Email`, `Phone`, `Other`, `Dt`) VALUES ('[value-1]','[value-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]','[value-8]')-->
+</body>
+</html>
