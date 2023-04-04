@@ -6,8 +6,11 @@
  <li>Created using HTMl,CSS,PHP.</li>
  
  <li>Uses MySQL database.</li>
+</ul>
+
 <br>
  This was my first PHP project and helped me understand more of the server side functionalities and how connectivity with database works. 
+<br>
+Check out the demo : https://atharva100.github.io/PHP-Travel-Form/
 
-</ul>
 
